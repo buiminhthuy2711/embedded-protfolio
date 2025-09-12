@@ -14,7 +14,7 @@ The program cycles through red, green, and blue colors with different blinking p
 - Simple GPIO output using HAL library
 
 ## Wiring Diagram
-![Wiring Diagram](images/wiring.jpg)
+![Wiring Diagram](images/wiring.jpeg)
 
 ## Demo Board
 ![Demo Board](images/board.jpg)
