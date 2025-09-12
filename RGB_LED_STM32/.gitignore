@@ -1,0 +1,16 @@
+# Thư mục build
+Debug/
+Release/
+
+# IDE project files
+.cproject
+.project
+.settings/
+
+# File tạm hệ điều hành
+*.log
+*.tmp
+*.swp
+
+# CubeMX file (nếu muốn giữ, comment dòng này)
+# *.ioc
