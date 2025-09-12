@@ -17,7 +17,7 @@ The program cycles through red, green, and blue colors with different blinking p
 ![Wiring Diagram](images/wiring.jpg)
 
 ## Demo Board
-![Demo Board](images/board.jpg)
+![Demo Board](images/board.jpeg)
 
 ## Steps to Run
 1. Connect the RGB LED to PA5 (RED), PA6 (GREEN), PA7 (BLUE) via resistors.
@@ -34,7 +34,7 @@ The program cycles through red, green, and blue colors with different blinking p
 - `images/` : wiring diagram and board photos
 
 ## Demo Video
-[Watch Video](link-to-video-on-GitHub-or-YouTube)
+[Watch Video](https://github.com/buiminhthuy2711/embedded-protfolio/blob/main/RGB_LED_STM32/video_demo.mov)
 
 ## Notes
 - Ensure correct HAL libraries are included.
