@@ -34,7 +34,7 @@ The program cycles through red, green, and blue colors with different blinking p
 - `images/` : wiring diagram and board photos
 
 ## Demo Video
-[Watch Video](https://github.com/buiminhthuy2711/embedded-protfolio/blob/main/RGB_LED_STM32/video_demo.mov)
+[![Demo Video](https://img.youtube.com/vi/wllODI0WoEs/0.jpg)](https://youtube.com/shorts/wllODI0WoEs)
 
 ## Notes
 - Ensure correct HAL libraries are included.
