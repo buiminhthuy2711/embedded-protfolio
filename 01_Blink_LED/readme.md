@@ -46,7 +46,7 @@ The program cycles through red, green, and blue colors with a fixed delay.
 - `Core/Inc/` : header files  
 - `Drivers/` : HAL library  
 - `01_Blink_LED.ioc` : STM32CubeMX configuration  
-- `images/` : demo photos  
+- `Images/` : demo photos  
 
 ---
 

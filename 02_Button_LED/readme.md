@@ -48,7 +48,7 @@ When the button is pressed, the LED color changes in sequence: Red → Green →
 - `Core/Inc/` : header files  
 - `Drivers/` : HAL library  
 - `02_Button_LED.ioc` : STM32CubeMX configuration  
-- `images/` : demo photos  
+- `Images/` : demo photos  
 
 ---
 
