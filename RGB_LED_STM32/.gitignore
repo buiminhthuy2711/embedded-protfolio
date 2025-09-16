@@ -1,8 +1,8 @@
-# Thư mục build
+# Thư mục build (tự động tạo lại, không cần đưa lên GitHub)
 Debug/
 Release/
 
-# IDE project files
+# File IDE (không bắt buộc, nhưng nếu muốn người khác mở lại project dễ dàng thì giữ .cproject và .project)
 .cproject
 .project
 .settings/
@@ -12,5 +12,15 @@ Release/
 *.tmp
 *.swp
 
-# CubeMX file (nếu muốn giữ, comment dòng này)
+# File biên dịch trung gian
+*.o
+*.elf
+*.bin
+*.map
+*.hex
+
+# Thư mục CubeMX scratch (nếu có)
+mx.scratch/
+
+# CubeMX file (nếu muốn giữ thì comment dòng này lại)
 # *.ioc
