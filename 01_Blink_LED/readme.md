@@ -52,7 +52,7 @@ The program cycles through red, green, and blue colors with a fixed delay.
 
 ## Demo
 ### Demo Board
-![Demo Board](images/board.jpeg)
+![Demo Board](Images/board.jpeg)
 
 ### Demo Video
 [![Demo Video](https://img.youtube.com/vi/wllODI0WoEs/0.jpg)](https://youtube.com/shorts/wllODI0WoEs)
