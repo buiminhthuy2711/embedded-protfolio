@@ -51,6 +51,9 @@ The program cycles through red, green, and blue colors with a fixed delay.
 ---
 
 ## Demo
+### Wiring Diagram
+![Wiring Diagram](images/wiring.jpeg)
+
 ### Demo Board
 ![Demo Board](Images/board.jpeg)
 

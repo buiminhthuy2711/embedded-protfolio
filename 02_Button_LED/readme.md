@@ -53,6 +53,9 @@ When the button is pressed, the LED color changes in sequence: Red → Green →
 ---
 
 ## Demo
+### Wiring Diagram
+![Wiring Diagram](images/wiring.jpeg)
+
 ### Demo Board
 ![Demo Board](Images/button_led_board.jpeg)
 
