@@ -15,13 +15,13 @@ I am passionate about continuous learning and currently expanding my skills in A
 
 ## Projects
 
-### [01_Blink_LED](01_Blink_LED/README.md)
+### [01_Blink_LED](01_Blink_LED/readme.md)
 - Platform: STM32F103C8T6 (Blue Pill)  
 - Description: Cycles RGB LED through Red, Green, Blue using GPIO output.  
 - Key Topics: GPIO basics, HAL library, delays.  
 - [Demo Video](https://youtube.com/shorts/wllODI0WoEs)  
 
-### [02_Button_LED](02_Button_LED/README.md)
+### [02_Button_LED](02_Button_LED/readme.md)
 - Platform: STM32F103C8T6 (Blue Pill)  
 - Description: Changes RGB LED color with push button input.  
 - Key Topics: GPIO input, pull-up, LED control, debounce.  
