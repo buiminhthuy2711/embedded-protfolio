@@ -19,13 +19,13 @@ I am passionate about continuous learning and currently expanding my skills in A
 - Platform: STM32F103C8T6 (Blue Pill)  
 - Description: Cycles RGB LED through Red, Green, Blue using GPIO output.  
 - Key Topics: GPIO basics, HAL library, delays.  
-- [Demo Video](https://youtube.com/shorts/wllODI0WoEs)  
+- [Demo Video](https://youtu.be/GLiBFAU8KPU?si=_hsomkKjRqhqMgyC)
 
 ### [02_Button_LED](02_Button_LED/readme.md)
 - Platform: STM32F103C8T6 (Blue Pill)  
 - Description: Changes RGB LED color with push button input.  
 - Key Topics: GPIO input, pull-up, LED control, debounce.  
-- [Demo Video](https://youtube.com/shorts/Nwj16jEZGUA)  
+- [Demo Video](https://youtube.com/shorts/uDNHO-TECJs?si=dbaZ2xtVTA9yGwst)  
 
 ### Smart Desk – ESP32 + Sensors + Web Interface
 - Platform: ESP32  
