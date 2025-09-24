@@ -53,13 +53,11 @@ The program cycles through red, green, and blue colors with a fixed delay.
 ## Demo
 ### Wiring Diagram
 ![Wiring Diagram](Images/wiring.jpeg)
-
 ### Demo Board
 ![Demo Board](Images/blink_led_board.jpeg)
 
 ## Demo Video
-[![Demo Video](https://img.youtube.com/vi/uDNHO-TECJs/0.jpg)](https://youtube.com/shorts/uDNHO-TECJs?si=dbaZ2xtVTA9yGwst)
-
+[![Demo Video](https://img.youtube.com/vi/GLiBFAU8KPU/0.jpg)](https://youtu.be/GLiBFAU8KPU?si=T5i_TR4kBddGb8zt)
 ---
 
 ## Future Work
