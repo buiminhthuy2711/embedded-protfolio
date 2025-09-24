@@ -87,31 +87,24 @@ int main(void)
   /* Initialize all configured peripherals */
   MX_GPIO_Init();
   /* USER CODE BEGIN 2 */
-  // Make sure all the original colors are off
-  HAL_GPIO_WritePin(GPIOA, RED_LED_Pin|GREEN_LED_Pin|BLUE_LED_Pin, GPIO_PIN_RESET);
+
   /* USER CODE END 2 */
 
   /* Infinite loop */
   /* USER CODE BEGIN WHILE */
-
   while (1)
   {
+    HAL_GPIO_WritePin(GPIOA, LED_RED_Pin, GPIO_PIN_SET);
+    HAL_Delay(1000);
+    HAL_GPIO_WritePin(GPIOA, LED_RED_Pin, GPIO_PIN_RESET);
+    HAL_GPIO_WritePin(GPIOA, LED_GREEN_Pin, GPIO_PIN_SET);
+    HAL_Delay(1000);
+    HAL_GPIO_WritePin(GPIOA, LED_GREEN_Pin, GPIO_PIN_RESET);
+    HAL_GPIO_WritePin(GPIOA, LED_BLUE_Pin, GPIO_PIN_SET);
+    HAL_Delay(1000);
+    HAL_GPIO_WritePin(GPIOA, LED_BLUE_Pin, GPIO_PIN_RESET);
     /* USER CODE END WHILE */
-    // RED LED
-    HAL_GPIO_TogglePin(GPIOA, RED_LED_Pin);
-    HAL_Delay(500);
-    HAL_GPIO_TogglePin(GPIOA, RED_LED_Pin);
-    HAL_Delay(100);
-    // GREEN LED
-    HAL_GPIO_TogglePin(GPIOA, GREEN_LED_Pin);
-    HAL_Delay(500);
-    HAL_GPIO_TogglePin(GPIOA, GREEN_LED_Pin);
-    HAL_Delay(100);
-    // BLUE LED
-    HAL_GPIO_TogglePin(GPIOA, BLUE_LED_Pin);
-    HAL_Delay(500);
-    HAL_GPIO_TogglePin(GPIOA, BLUE_LED_Pin);
-    HAL_Delay(100);
+
     /* USER CODE BEGIN 3 */
   }
   /* USER CODE END 3 */
@@ -166,14 +159,13 @@ static void MX_GPIO_Init(void)
   /* USER CODE END MX_GPIO_Init_1 */
 
   /* GPIO Ports Clock Enable */
-  __HAL_RCC_GPIOD_CLK_ENABLE();
   __HAL_RCC_GPIOA_CLK_ENABLE();
 
   /*Configure GPIO pin Output Level */
-  HAL_GPIO_WritePin(GPIOA, RED_LED_Pin|GREEN_LED_Pin|BLUE_LED_Pin, GPIO_PIN_RESET);
+  HAL_GPIO_WritePin(GPIOA, LED_RED_Pin|LED_GREEN_Pin|LED_BLUE_Pin, GPIO_PIN_RESET);
 
-  /*Configure GPIO pins : RED_LED_Pin GREEN_LED_Pin BLUE_LED_Pin */
-  GPIO_InitStruct.Pin = RED_LED_Pin|GREEN_LED_Pin|BLUE_LED_Pin;
+  /*Configure GPIO pins : LED_RED_Pin LED_GREEN_Pin LED_BLUE_Pin */
+  GPIO_InitStruct.Pin = LED_RED_Pin|LED_GREEN_Pin|LED_BLUE_Pin;
   GPIO_InitStruct.Mode = GPIO_MODE_OUTPUT_PP;
   GPIO_InitStruct.Pull = GPIO_NOPULL;
   GPIO_InitStruct.Speed = GPIO_SPEED_FREQ_LOW;
