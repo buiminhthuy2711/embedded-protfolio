@@ -57,8 +57,8 @@ The program cycles through red, green, and blue colors with a fixed delay.
 ### Demo Board
 ![Demo Board](01_Blink_LED\Images\blink_led_board.jpeg)
 
-### Demo Video
-[![Demo Video](https://img.youtube.com/vi/wllODI0WoEs/0.jpg)](https://youtube.com/shorts/wllODI0WoEs)
+## Demo Video
+[![Demo Video](https://img.youtube.com/vi/uDNHO-TECJs/0.jpg)](https://youtube.com/shorts/uDNHO-TECJs?si=dbaZ2xtVTA9yGwst)
 
 ---
 
