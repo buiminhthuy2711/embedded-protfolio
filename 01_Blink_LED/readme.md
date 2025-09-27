@@ -1,80 +1,56 @@
 # 01_Blink_LED – STM32 Project
 
-This project demonstrates controlling an RGB LED using STM32F103C8T6 (Blue Pill).  
-The program cycles through red, green, and blue colors with a fixed delay.
+## Overview
+This project demonstrates controlling an **RGB LED (KY-016, common cathode)** using **STM32F103C8T6 (Blue Pill)**.  
+The LED cycles through Red, Green, and Blue colors with a fixed delay.
 
 ---
 
-## Components
-- STM32F103C8T6 (Blue Pill)
-- RGB LED KY-016 (common cathode)
-- Resistors (220Ω – 330Ω for each LED pin)
-- Jumper wires
-- Breadboard
+## Hardware
+- STM32F103C8T6 (Blue Pill)  
+- RGB LED KY-016 + resistors (220–330Ω for each color pin)  
+- Breadboard & jumper wires  
 
----
-
-## Pinout
-
+**Pinout:**  
 | STM32 Pin | Function   |
 |-----------|------------|
-| PA5       | LED RED    |
-| PA6       | LED GREEN  |
-| PA7       | LED BLUE   |
+| PA5       | LED Red    |
+| PA6       | LED Green  |
+| PA7       | LED Blue   |
 
 ---
 
 ## Features
-- Toggle RED, GREEN, and BLUE LEDs with delay.  
-- Demonstrates basic GPIO Output.  
-- Adjustable delay using HAL_Delay.  
+- Cycles through Red → Green → Blue LEDs.  
+- Demonstrates basic **GPIO Output** with HAL.  
+- Adjustable blink speed using `HAL_Delay()`.  
 
 ---
 
-## Steps to Run
-1. Connect the RGB LED to PA5, PA6, PA7 (via resistors).  
-2. Open the project in STM32CubeIDE.  
+## Quick Start
+1. Connect RGB LED pins to PA5, PA6, PA7 via resistors.  
+2. Open the project in **STM32CubeIDE**.  
 3. Build the project.  
-4. Flash firmware to STM32 using ST-LINK/V2.  
-5. Power on the board and observe the LED cycling through RED, GREEN, BLUE.  
-6. Adjust `HAL_Delay()` in `main.c` to change blink speed (optional).  
-
----
-
-## File Structure
-- `Core/Src/` : main program (C source files)  
-- `Core/Inc/` : header files  
-- `Drivers/` : HAL library  
-- `01_Blink_LED.ioc` : STM32CubeMX configuration  
-- `Images/` : demo photos  
+4. Flash firmware using **ST-LINK/V2**.  
+5. Observe the LED cycling through the three colors.  
 
 ---
 
 ## Demo
-### Wiring Diagram
-![Wiring Diagram](Images/wiring.jpeg)
+[![Demo Video](https://img.youtube.com/vi/GLiBFAU8KPU/0.jpg)](https://youtu.be/GLiBFAU8KPU?si=T5i_TR4kBddGb8zt)
 
-### Demo Board
-![Demo Board](Images/blink_led_board.jpeg)
+### Images
+- **Wiring Diagram**  
+  ![Wiring](Images/wiring.jpeg)
 
-## Demo Video
-[![Demo Video](https://img.youtube.com/vi/uDNHO-TECJs/0.jpg)](https://youtube.com/shorts/uDNHO-TECJs?si=dbaZ2xtVTA9yGwst)
-
----
-
-## Future Work
-- Add button input to change colors manually.  
-- Implement PWM for smooth RGB fading effects.  
-- Integrate with sensors for interactive lighting.  
+- **Demo Board**  
+  ![Demo Board](Images/blink_led_board.jpeg)
 
 ---
 
 ## Notes
-- Ensure correct HAL libraries are included.  
-- External resistors are required for the RGB LED KY-016 (no built-in resistors).  
-- Use stable power supply (USB 5V or regulated 3.3V).  
+- Ensure resistors are connected in series with LED pins (KY-016 has no built-in resistors).  
+- Power the board via USB (5V) or regulated 3.3V supply.  
+- This project is a base example for extending with buttons or PWM effects.  
 
 ---
-
-## License
-This project is provided AS-IS for learning and portfolio purposes.
