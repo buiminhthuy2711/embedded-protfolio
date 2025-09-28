@@ -19,13 +19,19 @@ I am passionate about continuous learning and currently expanding my skills in A
 - Platform: STM32F103C8T6 (Blue Pill)  
 - Description: Cycles RGB LED through Red, Green, Blue using GPIO output.  
 - Key Topics: GPIO basics, HAL library, delays.  
-- [Demo Video](https://youtu.be/GLiBFAU8KPU?si=_hsomkKjRqhqMgyC)
+- [Demo Video](https://youtu.be/GLiBFAU8KPU?si=T5i_TR4kBddGb8zt)
 
 ### [02_Button_LED](02_Button_LED/readme.md)
 - Platform: STM32F103C8T6 (Blue Pill)  
 - Description: Changes RGB LED color with push button input.  
 - Key Topics: GPIO input, pull-up, LED control, debounce.  
-- [Demo Video](https://youtube.com/shorts/uDNHO-TECJs?si=dbaZ2xtVTA9yGwst)  
+- [Demo Video](https://youtube.com/shorts/uDNHO-TECJs?si=dbaZ2xtVTA9yGwst)
+
+### [03_Interrupt_RGB_LED](03_Interrupt_RGB_LED/readme.md)
+- Platform: STM32F103C8T6 (Blue Pill)  
+- Description: Control RGB LED color using external interrupt (EXTI) with push button.  
+- Key Topics: External interrupt (EXTI), NVIC, state machine, background task.  
+- [Demo Video](https://youtube.com/shorts/kLmUXRQk5aA?feature=share)
 
 ### Smart Desk – ESP32 + Sensors + Web Interface
 - Platform: ESP32  
@@ -45,11 +51,11 @@ I am passionate about continuous learning and currently expanding my skills in A
 ---
 
 ## Skills
-- Programming: C, Embedded C, Assembly  
-- Platforms: STM32, ESP32, AT89S51  
-- Tools: STM32CubeIDE, VSCode, Keil, Proteus  
-- Protocols: UART, SPI, I2C, CAN  
-- Concepts: GPIO, Interrupts, ADC, PWM, Timer, RTOS basics  
+- **Programming:** C, Embedded C  
+- **Platforms:** STM32 (Blue Pill), ESP32, NXP S32K144  
+- **Tools & IDEs:** STM32CubeIDE, VSCode, Proteus, S32 Design Studio  
+- **Protocols:** UART, SPI, I2C, CAN  
+- **Embedded Concepts:** GPIO, Interrupts (EXTI, NVIC), ADC, PWM, Timer, RTOS basics  
 
 ---
 
