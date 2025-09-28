@@ -43,7 +43,7 @@ int main(void)
   /* Infinite loop */
   while (1)
   {
-    HAL_GPIO_TogglePin(GPIOA, LED_BLUE_Pin, GPIO_PIN_SET);
+    HAL_GPIO_TogglePin(GPIOA, LED_BLUE_Pin);
     HAL_Delay(1000);
   }
 }
