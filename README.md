@@ -27,7 +27,7 @@ I am passionate about continuous learning and currently expanding my skills in A
 - Key Topics: GPIO input, pull-up, LED control, debounce.  
 - [Demo Video](https://youtube.com/shorts/uDNHO-TECJs?si=dbaZ2xtVTA9yGwst)
 
-### [03_Interrupt_RGB_LED](03_Interrupt_RGB_LED/readme.md)
+### [03_Interrupt_RGB_LED](03_EXTI_Button_LED/readme.md)
 - Platform: STM32F103C8T6 (Blue Pill)  
 - Description: Control RGB LED color using external interrupt (EXTI) with push button.  
 - Key Topics: External interrupt (EXTI), NVIC, state machine, background task.  
