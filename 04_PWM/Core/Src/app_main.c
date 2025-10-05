@@ -20,19 +20,19 @@ void app_main(void)
         SetColor(1000, 0, 0); // Red
         HAL_Delay(1000);
 
-        SetColor(1000, 1000, 0); // Red + Green
+        SetColor(500, 500, 0); // Red + Green
         HAL_Delay(1000);
 
         SetColor(0, 1000, 0); // Green
         HAL_Delay(1000);
 
-        SetColor(0, 1000, 1000); // Green + Blue
+        SetColor(0, 500, 500); // Green + Blue
         HAL_Delay(1000);
 
         SetColor(0, 0, 1000); // Blue
         HAL_Delay(1000);
 
-        SetColor(1000, 0, 1000); // Red + Blue
+        SetColor(500, 0, 500); // Red + Blue
         HAL_Delay(1000);
     }
     
